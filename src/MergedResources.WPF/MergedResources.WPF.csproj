@@ -93,6 +93,10 @@
       <Project>{9c8085b2-cb1a-4e17-a221-9ae7d9f75b36}</Project>
       <Name>MergedResources.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MergedResources.LessCommon\MergedResources.LessCommon.csproj">
+      <Project>{ee198ca0-108e-4d99-978b-7910c2fe0231}</Project>
+      <Name>MergedResources.LessCommon</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

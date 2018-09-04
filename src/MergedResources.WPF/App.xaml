@@ -13,6 +13,10 @@
             <Style TargetType="Label" BasedOn="{StaticResource LabelStyle}">
                 <Setter Property="Foreground" Value="DarkBlue"/>
             </Style>
+            
+            <Style TargetType="TextBlock" BasedOn="{StaticResource TextBlockStyle}">
+                <Setter Property="Foreground" Value="DarkGreen"/>
+            </Style>
 
         </ResourceDictionary>
     </Application.Resources>
